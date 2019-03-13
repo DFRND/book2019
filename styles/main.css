@@ -1,0 +1,262 @@
+body {
+  background-color: white;
+    margin: 0;
+}
+header {
+  background-color: white;
+}
+
+
+#bio {
+
+  display: flex;
+  align-items: center;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  text-align: justify;
+  word-spacing: 2px;
+  line-height: 30px;
+}
+
+.bio-content-block {
+  max-width: 960px;
+  margin: 30px auto;
+  columns: 2;
+}
+
+/*carnaby*/
+.carnaby{
+  background-color: black;
+}
+
+#comp {
+  background-color: #fff;
+}
+
+#comp h2 {
+  text-align: left;
+
+  margin-left: 18px;
+  margin-left: 25px;
+}
+#comp h3 {
+  text-align: left;
+  margin-top: 16px;
+  margin-left: 18px;
+  margin-left: 25px;
+  color: white;
+}
+
+#comp p {
+  margin-left: 25px;
+  margin-top: 10px;
+  font-size: 20px;
+  margin-right: 100px;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+  text-align: justify;
+}
+
+.fila{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* appliqué sur les divs de la page d'acceuil */
+.container-fluid {
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+  /* effets quand on passe sur l'image */
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container-fluid:hover .image {
+  opacity: 0.3;
+}
+
+.container-fluid:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+/*fin des effets*/
+
+/*camaieu*/
+.explication{
+  background-color: #ffbbb4;
+  color: white;
+  font-weight:lighter;
+  word-spacing: 2px;
+}
+.explication2{
+background-color: #a7d0e4;
+color:white;
+font-weight:lighter;
+word-spacing: 2px;
+}
+
+
+
+
+
+/*affiche anniversaire ikea*/
+.bleu{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+.jaune{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+/*fin des affiches anniversaire ikea*/
+
+.media-block {
+  display: flex;
+  width: 100%;
+}
+
+.video{
+  text-align: center;
+  padding-top: 380px
+}
+
+.lbpanim{
+  text-align: center;
+  padding-top: 380px;
+}
+.lbp{
+  background-image: url('190220_lbp_motif_book.jpg');
+  background-size: cover;
+  background-position: center top;
+  width: 100%;
+  height: 1280px;
+}
+.footer{
+  text-align: center;
+  font-size: 1rem;
+}
+
+.signature{
+  margin-top: 20px;
+}
+
+/*video playstation*/
+.background{
+  background-image: url('playstation-back.jpeg');
+  background-size: cover;
+  background-position: center top;
+  height: 1280px;
+}
+
+@media  (max-width: 750px){
+
+  .media-block {
+      display: block;
+  }
+  .media-block div{
+    width: 100%;
+    text-align: center;
+  }
+
+.header-content-block h1{
+font-size: 3em;
+
+}
+#comp h2 {
+  font-size: 30px;
+  text-align: left;
+}
+#comp p{
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+.header-content-block{
+  margin-left: 5px;
+}
+p{
+  font-size: 11px;
+}
+
+#comp .char5,
+#comp .char6,
+#comp .char7,
+#comp .char8,
+#comp .char9,
+#comp .char10,
+#comp .char11,
+#comp .char12 {
+  display : none;
+}
+
+#illu  .char5,
+#illu  .char6,
+#illu  .char7,
+#illu  .char8,
+#illu  .char9,
+#illu  .char10,
+#illu  .char11,
+#illu  .char12 {
+  display : none; }
+
+.bio-content-block {
+  max-width: 960px;
+  margin: 30px auto;
+  columns: 1;
+  text-align: justify;
+
+}
+
+.image-right p{
+  margin-bottom: 20px;
+}
+
+#bio {
+  display: block;
+}
+
+}
+
+.media-block div {
+  width : 100%;
+}
+
+.media-block div img {
+  width: 100%;
+}
+
+.image-right {
+  flex-direction: row-reverse;
+}
+
+.images-left{
+  width: 100%;
+  height: 400px;
+  background-color: #fff;
+}
+
+
+
+.edition3 {
+  background-color: #fd012a;
+  color: #fff;
+  min-height: 30vh;
+/* tout les mediaqueries*/
